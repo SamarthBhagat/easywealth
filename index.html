@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Easy Wealth - Mutual Fund & Investment Advisory. Plan Today, Build a Better Tomorrow.">
+<title>Easy Wealth | Mutual Fund & Investment Advisory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="#home"><img src="easy-wealth-logo.png" alt="Easy Wealth logo"><span>Easy <b>Wealth</b></span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#calculator">SIP Calculator</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">MUTUAL FUND & INVESTMENT ADVISORY</span>
+      <h1>Plan Today.<br><span>Build a Better Tomorrow.</span></h1>
+      <p>Simple, goal-focused financial guidance to help you understand investment options and plan your wealth journey with clarity.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Talk to Suhas Lambate →</a>
+        <a class="btn btn-ghost" href="#calculator">Calculate SIP</a>
+      </div>
+      <div class="trust-row">
+        <div><b>SAFE</b><span>Clear & responsible guidance</span></div>
+        <div><b>SMART</b><span>Goal-focused approach</span></div>
+        <div><b>LONG TERM</b><span>Wealth planning mindset</span></div>
+      </div>
+    </div>
+    <div class="hero-logo-card">
+      <div class="logo-ring"></div>
+      <img src="easy-wealth-logo.png" alt="Easy Wealth">
+      <p>Mutual Fund & Investment Advisory</p>
+      <div class="hero-mini">SAFE <i>•</i> SMART <i>•</i> LONG TERM WEALTH</div>
+    </div>
+  </div>
+</section>
+
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-heading">
+      <div><span class="eyebrow">OUR SERVICES</span><h2>Financial solutions under one roof.</h2></div>
+      <p>Explore the services offered by Easy Wealth. Specific products and recommendations should be selected according to your goals, risk profile and applicable regulations.</p>
+    </div>
+    <div class="service-grid">
+      <article class="service-card"><span class="service-icon">↗</span><h3>Mutual Fund Investment</h3><p>Explore mutual fund investment options across different goals and time horizons.</p><a href="#contact">Enquire →</a></article>
+      <article class="service-card featured"><span class="service-icon">◎</span><h3>Financial Planning</h3><p>Organise your financial goals, savings, protection and investments into a clear plan.</p><a href="#contact">Plan with us →</a></article>
+      <article class="service-card"><span class="service-icon">₹</span><h3>Wealth Creation & Management</h3><p>Build a structured approach to long-term wealth creation and portfolio review.</p><a href="#contact">Discuss →</a></article>
+      <article class="service-card"><span class="service-icon">◷</span><h3>Retirement Planning</h3><p>Estimate retirement needs and explore strategies for long-term financial preparedness.</p><a href="#contact">Start planning →</a></article>
+      <article class="service-card"><span class="service-icon">✓</span><h3>Insurance Planning</h3><p>Understand your protection needs and explore suitable insurance solutions.</p><a href="#contact">Discuss →</a></article>
+      <article class="service-card"><span class="service-icon">▥</span><h3>Stock Market Advisory</h3><p>Discuss market-related services subject to applicable registration, regulations and disclosures.</p><a href="#contact">Enquire →</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="banner-section">
+  <div class="container">
+    <img class="service-banner" src="services-banner.png" alt="Easy Wealth services and contact information">
+  </div>
+</section>
+
+<section class="section calculator" id="calculator">
+  <div class="container calc-grid">
+    <div>
+      <span class="eyebrow">PLAN WITH NUMBERS</span>
+      <h2>SIP calculator</h2>
+      <p>Use this calculator to see an illustrative future value for a monthly SIP. It is not a prediction or guarantee of returns.</p>
+      <div class="assumption">Selected annual return assumption: <strong id="rateText">12%</strong></div>
+    </div>
+    <div class="calc-card">
+      <label>Monthly investment <output id="monthlyOut">₹5,000</output>
+        <input id="monthly" type="range" min="500" max="100000" step="500" value="5000">
+      </label>
+      <label>Investment period <output id="yearsOut">10 years</output>
+        <input id="years" type="range" min="1" max="40" step="1" value="10">
+      </label>
+      <label>Expected annual return <output id="rateOut">12%</output>
+        <input id="rate" type="range" min="1" max="20" step=".5" value="12">
+      </label>
+      <div class="result">
+        <div><span>Total invested</span><strong id="invested">₹6,00,000</strong></div>
+        <div><span>Illustrative value</span><strong id="value">₹11,61,016</strong></div>
+      </div>
+      <p class="mini-note">Illustration only. Market-linked investments are subject to market risks and actual results may differ.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-logo">
+      <img src="easy-wealth-logo.png" alt="Easy Wealth logo">
+      <div class="about-caption">Plan Today • Build a Better Tomorrow</div>
+    </div>
+    <div>
+      <span class="eyebrow">YOUR FINANCIAL ADVISOR</span>
+      <h2>Suhas Lambate</h2>
+      <h3>Financial Advisor</h3>
+      <p>Easy Wealth aims to make financial conversations simple and practical. Whether you are starting a SIP, planning for retirement or reviewing your financial goals, the focus is on helping you understand your options.</p>
+      <div class="check-list">
+        <div><span>✓</span><p><b>Understand</b><br>Know the basics before making a financial decision.</p></div>
+        <div><span>✓</span><p><b>Plan</b><br>Connect investments with your personal goals.</p></div>
+        <div><span>✓</span><p><b>Review</b><br>Revisit your plan as your needs and circumstances change.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="container contact-grid">
+    <div>
+      <span class="eyebrow">CONTACT EASY WEALTH</span>
+      <h2>Let's discuss your financial goals.</h2>
+      <p>Connect directly with <b>Suhas Lambate</b>, Financial Advisor.</p>
+      <div class="contact-info">
+        <a href="tel:+919987487403"><span>☎</span><div><small>Mobile</small><strong>9987487403</strong></div></a>
+        <a href="mailto:investmentarathia@gmail.com"><span>✉</span><div><small>Email</small><strong>investmentarathia@gmail.com</strong></div></a>
+      </div>
+    </div>
+    <form id="leadForm">
+      <input id="name" required placeholder="Your name" aria-label="Your name">
+      <input id="phone" required placeholder="Mobile number" aria-label="Mobile number">
+      <select id="interest" aria-label="Interested in">
+        <option>Mutual Fund Investment</option>
+        <option>Financial Planning</option>
+        <option>Wealth Creation & Management</option>
+        <option>Retirement Planning</option>
+        <option>Insurance Planning</option>
+        <option>Stock Market Advisory</option>
+      </select>
+      <button class="btn btn-primary" type="submit">Send on WhatsApp →</button>
+      <p id="formMsg" class="form-msg"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="#home"><img src="easy-wealth-logo.png" alt="Easy Wealth"><span>Easy <b>Wealth</b></span></a>
+      <p>Mutual Fund & Investment Advisory</p>
+      <p class="tagline">SAFE • SMART • LONG TERM WEALTH</p>
+    </div>
+    <div><h4>Quick Links</h4><a href="#services">Services</a><a href="#calculator">SIP Calculator</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+    <div><h4>Contact</h4><p>Suhas Lambate<br>Financial Advisor</p><p>9987487403</p><p>investmentarathia@gmail.com</p></div>
+  </div>
+  <div class="container legal">
+    <p><b>Important:</b> Investment products are subject to market risks. Please read all scheme-related documents carefully. Replace this section with the applicable regulatory registration details, disclosures, privacy policy and terms before publishing.</p>
+    <p>© <span id="year"></span> Easy Wealth. All rights reserved.</p>
+  </div>
+</footer>
+<a class="whatsapp" href="https://wa.me/919987487403" target="_blank" rel="noopener" aria-label="WhatsApp Easy Wealth">◉</a>
+<script src="script.js"></script>
+</body>
+</html>
